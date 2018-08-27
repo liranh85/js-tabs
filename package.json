@@ -1,0 +1,11 @@
+{
+  "name": "js-tabs",
+  "version": "0.0.1",
+  "description": "JS tabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liranh85/js-tabs.git"
+  },
+  "author": "Liran Harary",
+  "license": "ISC"
+}
