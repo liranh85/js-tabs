@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Tabs</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>JS Tabs</h1>
+	<h2>Example 1: standard tabs</h2>
+	<div id="example-js-tabs" class="js-tabs example-js-tabs">
+		<nav class="js-tabs__nav">
+			<ul class="js-tabs__tabs-container">
+				<li class="js-tabs__tab active">Tab 1</li>
+				<li class="js-tabs__tab">Tab 2</li>
+				<li class="js-tabs__tab">Tab 3</li>
+				<li class="js-tabs__tab">Tab 4</li>
+			</ul>
+			<div class="js-tabs__marker"></div>
+		</nav>
+
+		<ul class="js-tabs__content-container">
+			<li class="js-tabs__content active">
+				<p>Content 1</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 2</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 3</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 4</p>
+			</li>
+		</ul>
+	</div>
+
+	<h2>Example 2: tabs without a marker</h2>
+	<div id="example-js-tabs-no-marker" class="js-tabs example-js-tabs-no-marker">
+		<nav class="js-tabs__nav">
+			<ul class="js-tabs__tabs-container js-tabs__no-marker">
+				<li class="js-tabs__tab active">Tab 1</li>
+				<li class="js-tabs__tab">Tab 2</li>
+				<li class="js-tabs__tab">Tab 3</li>
+				<li class="js-tabs__tab">Tab 4</li>
+			</ul>
+		</nav>
+
+		<ul class="js-tabs__content-container">
+			<li class="js-tabs__content active">
+				<p>Content 1</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 2</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 3</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 4</p>
+			</li>
+		</ul>
+	</div>
+
+	<h2>Example 3: nested tabs</h2>
+	<div id="example-js-tabs-nesting" class="js-tabs example-js-tabs-nesting">
+		<nav class="js-tabs__nav">
+			<ul class="js-tabs__tabs-container">
+				<li class="js-tabs__tab active">Tab 1</li>
+				<li class="js-tabs__tab">Tab 2</li>
+				<li class="js-tabs__tab">Tab 3</li>
+				<li class="js-tabs__tab">Tab 4</li>
+			</ul>
+			<div class="js-tabs__marker"></div>
+		</nav>
+
+		<ul class="js-tabs__content-container">
+			<li class="js-tabs__content active">
+				<div id="example-js-tabs-nested" class="js-tabs example-js-tabs-nested">
+					<nav class="js-tabs__nav">
+						<ul class="js-tabs__tabs-container">
+							<li class="js-tabs__tab active">Nested tab 1</li>
+							<li class="js-tabs__tab">Nested tab 2</li>
+							<li class="js-tabs__tab">Nested tab 3</li>
+							<li class="js-tabs__tab">Nested tab 4</li>
+						</ul>
+						<div class="js-tabs__marker"></div>
+					</nav>
+
+					<ul class="js-tabs__content-container">
+						<li class="js-tabs__content active">
+							<p>Nested content 1</p>
+						</li>
+						<li class="js-tabs__content">
+							<p>Nested content 2</p>
+						</li>
+						<li class="js-tabs__content">
+							<p>Nested content 3</p>
+						</li>
+						<li class="js-tabs__content">
+							<p>Nested content 4</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 2</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 3</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 4</p>
+			</li>
+		</ul>
+	</div>
+
+	<h2>Example 4: different colored tabs (watch the marker)</h2>
+	<div id="example-js-tabs-multicolor" class="js-tabs example-js-tabs-multicolor">
+		<nav class="js-tabs__nav">
+			<ul class="js-tabs__tabs-container">
+				<li class="js-tabs__tab active">Tab 1</li>
+				<li class="js-tabs__tab">Tab 2</li>
+				<li class="js-tabs__tab">Tab 3</li>
+				<li class="js-tabs__tab">Tab 4</li>
+			</ul>
+			<div class="js-tabs__marker"></div>
+		</nav>
+
+		<ul class="js-tabs__content-container">
+			<li class="js-tabs__content active">
+				<p>Content 1</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 2</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 3</p>
+			</li>
+			<li class="js-tabs__content">
+				<p>Content 4</p>
+			</li>
+		</ul>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

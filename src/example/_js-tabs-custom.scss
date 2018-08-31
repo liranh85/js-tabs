@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 20px;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.js-tabs {
+  margin-bottom: 50px;
+}
+
+.js-tabs__tab {
+  width: 200px;
+}
+
+.example-js-tabs-no-marker {
+  .js-tabs__tab {
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+.example-js-tabs-nesting {
+  .js-tabs__tab {
+    color: #0d47a1;
+  }
+}
+
+.example-js-tabs-nested {
+  .js-tabs__tab {
+    width: 150px;
+    color: #1e88e5;
+  }
+}
+
+.example-js-tabs-multicolor {
+  .js-tabs__tab {
+    &:nth-child(1) {
+      color: #ff4081;
+    }
+
+    &:nth-child(2) {
+      color: #2196f3;
+    }
+
+    &:nth-child(3) {
+      color: #d50000;
+    }
+
+    &:nth-child(4) {
+      color: #00695c;
+    }
+  }
+}
