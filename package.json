@@ -1,6 +1,6 @@
 {
   "name": "js-tabs",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Transforms tabs markup to a simple but beautiful tabs system",
   "main": "dist/main/index.js",
   "scripts": {

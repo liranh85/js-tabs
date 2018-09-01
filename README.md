@@ -130,8 +130,8 @@ If you want to implement the marker differently, you can remove the existing one
 ```diff
 ...
 <nav class="js-tabs__nav">
--  <ul class="js-tabs__tabs-container">
-+  <ul class="js-tabs__tabs-container js-tabs__no-marker">
+- <ul class="js-tabs__tabs-container">
++ <ul class="js-tabs__tabs-container js-tabs__no-marker">
     <li class="js-tabs__tab active">Tab 1</li>
     <li class="js-tabs__tab">Tab 2</li>
     <li class="js-tabs__tab">Tab 3</li>
