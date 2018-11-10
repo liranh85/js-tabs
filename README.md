@@ -74,14 +74,20 @@ Requires `_js-tabs-base.scss` to work properly.
 ## Usage - ES5 and CSS
 
 ```html
-<link rel="stylesheet" href="js-tabs/_js-tabs-base.css">
-<script src="js-tabs/index.js"></script>
-<script>
-  var myTabs = new JsTabs.default({
-    elm: '#my-js-tabs'
-  })
-  myTabs.init()
-</script>
+<head>
+  <!-- ... -->
+  <link rel="stylesheet" href="js-tabs/_js-tabs-base.css">
+  <script src="js-tabs/index.js"></script>
+</head>
+<body>
+  <!-- ... -->
+  <script>
+    var myTabs = new JsTabs.default({
+      elm: '#my-js-tabs'
+    })
+    myTabs.init()
+  </script>
+</body>
 ```
 
 ## Parameters
