@@ -62,9 +62,6 @@ module.exports = {
       {
         test: /\js-tabs-base.scss$/,
         use: baseSCSS.extract(extractTextConfig),
-        // The following also works:
-        // test: /\.scss$/,
-        // exclude: path.resolve(__dirname, 'src', 'example')
       }
     ]
   },
